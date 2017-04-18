@@ -137,7 +137,7 @@ int main()
 	printf("Total number of keywords: %d\nTotal number of record: %d\n", keywordNo, (itemNo / keywordNo));
 	for (loopCounter = 0; loopCounter < (itemNo / keywordNo); loopCounter++)
 	{
-		printf("%d-%d\t%s\t%d\n", loopCounter + 1, emploee[loopCounter].id_number, emploee[loopCounter].name, emploee[loopCounter].score_number);
+		printf("%d-%03d\t%s\t%d\n", loopCounter + 1, emploee[loopCounter].id_number, emploee[loopCounter].name, emploee[loopCounter].score_number);
 	}
 	getchar();
 }
